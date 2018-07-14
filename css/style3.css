@@ -1,0 +1,354 @@
+body {
+    color: #424242;
+    font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    font-family: "Grand Hotel";
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    margin-bottom: 25px;
+
+}
+
+p
+{
+    text-indent: 20px;
+}
+
+p.text-center
+{
+    text-indent: 0px;
+}
+.row,
+.section,
+main,
+#container {
+    margin: 0!important;
+}
+
+header a {
+    color: #fff;
+}
+
+header img {
+    max-height: 200px;
+}
+
+img.logo {
+    transition: all 1s ease;
+}
+
+img.logo:hover {
+    filter: drop-shadow(5px 5px 5px lightgray);
+}
+
+img.icone {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-top: 0;
+}
+
+.side p {
+    text-align: center;
+}
+
+.side h1 {
+    text-align: center;
+}
+
+.side p
+{
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+
+.side img
+{
+    float: left;
+    max-width: 200px;
+    margin-right: 10px;
+}
+img.flotte {
+    float: left;
+    margin: 10px;
+    max-width: 250px;
+}
+
+.menuhaut a {
+    font-size: 2em;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.menuhaut a
+{
+    transition: all 0.5s ease
+}
+
+.menuhaut a:hover
+{
+    filter: drop-shadow(5px 5px 5px lightgray);
+}
+
+.slogan {
+    transition: all 1s ease;
+}
+
+
+.gris {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    padding: 30px;
+    transition: all 0.5s ease;
+}
+
+.gris h2
+{
+    background-color: white;
+}
+
+.gris img
+{
+    float: left;
+}
+
+.gris:hover {
+    background-color: lightgray;
+    border-radius: 0;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-size: 0.7em;
+}
+
+footer p,
+footer h3 {
+    margin: 5px!important;
+}
+
+ul {
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+h2.actu
+{
+    margin-top: 15px;
+}
+.boutique img
+{
+    margin-bottom: 15px;
+}
+
+.boutique h1
+{
+    background-color: lightgray;
+    margin-top: 20px;
+}
+#container {
+    margin-top: 10px;
+}
+
+main {
+    padding-bottom: 25px;
+}
+
+.icones img,
+.accueil img {
+    max-width: 100%;
+}
+
+main img {
+    width: 100%;
+}
+
+.icones p {
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.accueil {
+    text-align: center;
+}
+
+.slogan {
+    font-family: "Grand Hotel";
+    font-size: 5em;
+    color: white;
+}
+
+section.grey {
+    background-color: lightgrey;
+    color: #424242;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+section.grey p {
+    padding: 15px;
+}
+
+hr,
+.section hr {
+    background-color: #424242!important;
+    font-family: 'Arial';
+}
+
+h1,
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bouton {
+    background-color: #004494;
+    color: white;
+    padding: 20px;
+}
+
+.lignegold {
+    background-color: goldenrod;
+    font-family: "Grand Hotel"!important;
+    font-size: 1.7em;
+    padding: 10px;
+}
+
+.grey a,
+.lignegold a {
+    color: white;
+    padding: 10px;
+}
+
+.lignegold a
+{
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.lignegrise a:hover{
+    background-color: grey;
+}
+
+main h2
+{
+    text-align: left;
+    padding: 10px;
+}
+
+p.adresse {
+    font-size: 0.8em;
+}
+
+.bouton a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerp {
+    font-size: 2em;
+}
+
+.grey a i
+{
+    font-size: 4em;
+}
+
+@media only screen and (max-width:1080px) {
+    .cache1 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1081px) {
+    .cache2 {
+        display: none;
+    }
+}
+
+.boutique-side li a
+{
+    color: #424242!important;
+}
+.form-group
+{
+    margin-bottom: 15px!important;
+}
+
+li.active
+{
+    background-color: #424242!important;
+    border: none!important;
+    color: white!important;
+}
+
+li.active a
+{
+    color: white!important;
+}
+
+section.carroussel {
+    width: 100%!important;
+    padding: 0!important;
+    margin-top: 15px;
+}
+
+section.carroussel img {
+    width: 100%;
+    margin: 0!important;
+}
+
+.side img, .gris img, section.carroussel
+{
+    box-shadow: 5px 2px 5px #424242;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}

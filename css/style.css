@@ -1,0 +1,166 @@
+body
+{
+    background-color: black!important;
+    font-family: 'Roboto', cursive!important;
+}
+
+p
+{
+    font-size: 0.7em;
+}
+
+#titre h1
+{
+    font-family: 'Grand Hotel', cursive!important;
+    font-size: 10em!important;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 10px;
+    color: white!important;
+}
+
+#logo img
+{
+    max-width: 100%!important;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#titre hr
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#menu p
+{
+    font-family: 'Grand Hotel', cursive!important;
+    text-align: center;
+    font-size: 1em!important;
+}
+
+#menu a
+{
+    margin: auto!important;
+    text-decoration: none!important;
+    color: goldenrod;
+    font-size: 1.5em;
+}
+
+#menu a:hover
+{
+    border-bottom: 1px solid goldenrod;
+}
+
+#corps
+{
+    background-color: goldenrod;
+    font-size: 1.5em;
+}
+
+#corps p
+{
+    margin-top: 25px;
+    text-align: center;
+}
+
+#corps a
+{
+    color: red;
+    text-decoration: none;
+}
+
+#corps h1
+{
+    font-family: 'Grand Hotel', cursive!important;
+    text-align: center;
+    color: white!important;
+    font-size: 2em;
+}
+
+h2
+{
+    font-family: 'Grand Hotel', cursive!important;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+legend
+{
+    font-family: 'Grand Hotel', cursive!important;
+    text-align: center;
+    color: white;
+    font-size: 2em!important;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 25px;
+    background-color: goldenrod;
+    color: white;
+    padding: 15px;
+}
+
+a
+{
+    text-decoration: none!important;
+}
+
+#map
+{
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+form
+{
+    font-family: 'Roboto', cursive!important;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+textarea
+{
+    width: 70%;
+    height: 200px;
+    color: black;
+}
+
+input
+{
+    width: 200px;
+    color: black;
+    margin: 20px;
+}
+
+label 
+{ 
+    vertical-align: top; 
+}
+
+.mentions
+{
+    font-family: 'Roboto', cursive!important;
+}
+
+.fb-page
+{
+    margin: auto;
+}
+
+#corps img
+{
+    max-width: 100%;
+    text-align: center;
+}
+
+.menu-gauche
+{
+    color: whitesmoke;
+    text-align: center!important;
+}

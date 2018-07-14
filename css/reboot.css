@@ -1,0 +1,232 @@
+body {
+
+    background-color: #e7d169;
+    font-size: 0.8em;
+
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.gold,
+.gh,
+h2 {
+    font-family: 'Grand Hotel', cursive;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center!important;
+}
+
+.gh {
+    font-size: 1.5em;
+}
+
+a,
+a:hover {
+    color: inherit;
+}
+
+
+
+footer {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+    font-size: 0.7em;
+    height: 65px;
+    z-index: 10;
+}
+
+footer button {
+    margin-right: 10px!important;
+}
+
+main {
+    margin-top: 75px;
+    margin-bottom: 65px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.noir {
+    background-color: black;
+    color: white;
+    font-size: 2.5em;
+    padding: 15px;
+}
+
+.row,
+section,
+body,
+div,
+figure {
+    margin: 0!important;
+}
+
+section,
+body,
+div {
+    padding: 0!important;
+}
+
+img {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.navbar-dark {
+    background-color: black!important;
+}
+
+.navbar-dark ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.5px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.navbar-dark ul a:hover::after {
+    width: 100%; //transition: width .3s;
+}
+
+footer i,
+footer p {
+    color: white;
+}
+
+footer a {
+    color: #e7d169;
+}
+
+.noir i {
+    padding: 20px;
+}
+
+.blanc {
+    background-color: white;
+}
+
+.adresse {
+    margin: 0!important;
+}
+
+.photo p {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.accueil,
+.map {
+    margin: 0;
+}
+
+.gold p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.gold {
+    padding-top: 15px!important;
+    font-size: 2em;
+    background-color: #e7d169;
+    transition: all 0.5s ease;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.nav-tabs li a {
+    text-align: center;
+    padding: auto!important;
+}
+
+.tab-pane p {
+    padding: 10px!important;
+}
+
+#rotiss:target,
+#sauss:target,
+#sandw:target,
+#accomp:target,
+#dessert:target {
+    background-color: #e7d169!important;
+}
+
+.tab-pane img {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.form-group {
+    padding: 20px!important;
+}
+
+.contact
+{
+    background-image: url(../img/logo2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+input,
+textarea {
+    background-color: #f8fcdb!important;
+}
+
+#deliveroo {
+    background-color: #006a66!important;
+    color: white!important;
+}
+
+#deliveroo .btn-outline-info {
+    color: white;
+}
+
+@media only screen and (max-width:900px) {
+    .cache1,
+    .cache3 {
+        display: none;
+    }
+    img {
+        margin-bottom: 15px;
+    }
+
+    .cache-color {
+        background-color: #e7d169;
+    }
+    
+    h2.trouver {
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (min-width:901px) {
+    .cache2 {
+        display: none;
+    }
+    .cache3 {
+        display: inline;
+    }
+
+}
